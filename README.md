@@ -5,7 +5,8 @@ Interface web desenvolvida em **React e Vite** para organizar os filmes assistid
 
 ## 🎬 Demonstração do projeto
 
-Uploading OurMovies — Nosso próximo filme - Google Chrome 2026-11-17 20-10-32 (1).mp4…
+
+https://github.com/user-attachments/assets/7d32a799-84e0-4b9a-af10-386a4adf0bee
 
 
 ---
