@@ -4,7 +4,10 @@
 Interface web desenvolvida em **React e Vite** para organizar os filmes assistidos por um casal, criar uma lista de filmes para assistir, registrar avaliações individuais e visualizar a média das notas.
 
 ## 🎬 Demonstração do projeto
-https://github.com/user-attachments/assets/c9f67719-8bac-48fb-a2ea-955ecdec483f
+
+Uploading OurMovies — Nosso próximo filme - Google Chrome 2026-11-17 20-10-32 (1).mp4…
+
+
 ---
 
 ## Arquitetura do Sistema
