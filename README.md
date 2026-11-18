@@ -3,8 +3,8 @@
 
 Interface web desenvolvida em **React e Vite** para organizar os filmes assistidos por um casal, criar uma lista de filmes para assistir, registrar avaliações individuais e visualizar a média das notas.
 
-O projeto possui identidade visual inspirada em plataformas de streaming, com **tema escuro, destaques roxos, cards de filmes e layout responsivo**.
-
+## 🎬 Demonstração do projeto
+https://github.com/arthurcoelho04/OurFilmsFront/issues/2#issue-6456798684
 ---
 
 ## Arquitetura do Sistema
@@ -36,21 +36,6 @@ flowchart TD
 
 ---
 
-## Funcionalidades
-
-- **Página inicial:** visão geral da coleção, destaques e indicadores.
-- **Pesquisa de filmes:** consulta ao TMDB por meio do backend, com debounce e paginação.
-- **Coleção:** navegação entre assistidos, filmes para assistir e favoritos.
-- **Detalhes:** informações dos filmes e avaliações individuais.
-- **Avaliações:** criação, edição e exclusão de notas e comentários.
-- **Média do casal:** exibição da média calculada pela API.
-- **Interface responsiva:** adaptação a diferentes tamanhos de tela.
-- **Experiência de uso:** carregamentos skeleton, mensagens de erro e estados vazios.
-
-**Personalização de perfis:** o backend já disponibiliza alteração de nomes e fotos; a integração dessa funcionalidade no frontend deve ser confirmada na versão atual antes de apresentá-la como concluída.
-
----
-
 ## Tecnologias Utilizadas
 
 | Tecnologia | Aplicação |
@@ -75,17 +60,6 @@ O frontend utiliza os endpoints REST da aplicação Spring Boot.
 | `/api/lista` | Listagem, inclusão, edição e exclusão da coleção |
 | `/api/avaliacoes` | Registro, consulta e atualização das avaliações |
 | `/api/usuarios` | Consulta dos perfis; personalização disponível na API |
-
-### Fluxo de Funcionamento
-
-1. O usuário pesquisa um filme na interface.
-2. O React envia uma requisição ao backend por Axios.
-3. O Spring Boot consulta o TMDB e devolve os resultados em JSON.
-4. O usuário adiciona o filme à lista compartilhada.
-5. O backend registra a operação no PostgreSQL.
-6. A interface atualiza a coleção e apresenta as avaliações e a média do casal.
-
-Os pôsteres são exibidos utilizando o caminho retornado pela API e o serviço público de imagens do TMDB.
 
 ---
 
@@ -138,18 +112,6 @@ npm run build
 ### Testes
 
 Execute o comando de testes definido no `package.json` da versão instalada do projeto.
-
----
-
-## Estrutura Visual
-
-A interface segue o estilo de uma plataforma de streaming, combinando:
-
-- Tema escuro com acentos roxos.
-- Cards com pôster, título, gênero e informações essenciais.
-- Navegação entre início, exploração e coleção.
-- Visualização das notas individuais e média do casal.
-- Feedback de carregamento, sucesso e erro.
 
 ---
 
