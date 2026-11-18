@@ -4,7 +4,7 @@
 Interface web desenvolvida em **React e Vite** para organizar os filmes assistidos por um casal, criar uma lista de filmes para assistir, registrar avaliações individuais e visualizar a média das notas.
 
 ## 🎬 Demonstração do projeto
-https://github.com/arthurcoelho04/OurFilmsFront/issues/2#issue-6456798684
+[https://github.com/arthurcoelho04/OurFilmsFront/issues/2#issue-6456798684](https://github.com/arthurcoelho04/OurFilmsFront/issues/3)
 ---
 
 ## Arquitetura do Sistema
